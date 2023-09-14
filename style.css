@@ -1,0 +1,14 @@
+*
+{font-family: Arial, Helvetica, sans-serif}
+
+h1 {font-size: 60px; font-weight: 700; text-align: center; color: #8fe2a8}
+
+img { height: 700px; width: auto}
+
+div.image {text-align: center}
+
+a {text-decoration: none; font-weight: 700; font-size: 25px; color: #2eecc3}
+
+li.home {text-align: center; line-height: 37px}
+
+ul.home {list-style-type: none}
