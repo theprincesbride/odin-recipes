@@ -1,14 +1,90 @@
 *
-{font-family: Arial, Helvetica, sans-serif}
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 
-h1 {font-size: 60px; font-weight: 700; text-align: center; color: #8fe2a8}
+}
 
-img { height: 700px; width: auto}
+body {
+    background-image: url("images/bright_squares.webp");
+    background-color: lightgray;
+}
 
-div.image {text-align: center}
+h1 {
+    font-size: 60px; 
+    font-weight: 700; 
+    text-align: center; 
+    color: #8fe2a8;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0, .5)
+}
 
-a {text-decoration: none; font-weight: 700; font-size: 25px; color: #2eecc3}
+img { 
+    height: 700px; 
+    width: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: lightcoral;
+    border-right-color: lightgreen;
+    border-bottom-color: whitesmoke;
+    border-left-color: black;
+    margin: 20px;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0, .5);  
+}
 
-li.home {text-align: center; line-height: 37px}
+div.container {
+    background-image: url("images/card.png");
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: lightseagreen;
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0, .5),   
 
-ul.home {list-style-type: none}
+}
+
+div.image {
+    text-align: center;
+}
+
+a {
+    text-decoration: none; 
+    font-weight: 700; 
+    font-size: 25px; 
+    color: white;
+    
+}
+
+li.home {
+    text-align: center;
+    }
+
+ul.home {
+    list-style-type: none;
+}
+
+button {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 50px;
+    width: 350px;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0, .5);
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    border-style: groove;
+    border-width: 5px;
+    transition: 0.7s;
+}
+
+button:hover {
+    box-shadow: 1px 1px 4px rgb(0, 0, 0, .5);
+    background-color: darkcyan;
+    transition: 0.7s;
+}
+
+button:active {
+    box-shadow: 1px 1px 4px rgb(0, 0, 0, .5);
+    background-color: rgb(2, 73, 73);
+    transition: 0.7s;
+}
