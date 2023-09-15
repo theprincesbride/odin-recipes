@@ -15,7 +15,8 @@ h1 {
     font-weight: 700; 
     text-align: center; 
     color: #8fe2a8;
-    text-shadow: 1px 1px 4px rgb(0, 0, 0, .5)
+    text-shadow: 1px 1px 4px rgb(0, 0, 0, .5);
+    margin: 0px;
 }
 
 img { 
@@ -39,7 +40,7 @@ div.container {
     border-color: lightseagreen;
     width: 800px;
     margin: 50px auto;
-    padding: 20px;
+    padding: 60px 40px;
     box-shadow: 1px 1px 4px rgb(0, 0, 0, .5),   
 
 }
